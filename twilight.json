@@ -1075,6 +1075,13 @@
             "icon": "sicon-store",
             "path": "shop.btn",
             "fields": []
+        },
+        {
+            "key": "a3d9f489-e843-4d02-8d85-ad5433e3a38d",
+            "title": "small banner",
+            "icon": "sicon-store",
+            "path": "small.banner",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
