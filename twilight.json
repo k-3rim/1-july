@@ -1061,6 +1061,13 @@
             "icon": "sicon-store",
             "path": "promo.image",
             "fields": []
+        },
+        {
+            "key": "f66ffa0f-f2a3-4d33-a6ca-b0a90795192e",
+            "title": "paragraph zone",
+            "icon": "sicon-store",
+            "path": "paragraph.text",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
