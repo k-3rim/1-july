@@ -1029,7 +1029,17 @@
             "title": "text zone",
             "icon": "sicon-store",
             "path": "1july.text",
-            "fields": []
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "static",
+                    "format": "title",
+                    "label": "Title",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-text"
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
