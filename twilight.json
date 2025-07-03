@@ -1023,6 +1023,13 @@
                     "maxLength": 30
                 }
             ]
+        },
+        {
+            "key": "577811ef-bf9e-415f-8e6d-c9611cd7142f",
+            "title": "text zone",
+            "icon": "sicon-store",
+            "path": "1july.text",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
