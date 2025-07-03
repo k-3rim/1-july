@@ -1040,6 +1040,13 @@
                     "icon": "sicon-format-text"
                 }
             ]
+        },
+        {
+            "key": "6ed93c2c-6097-431f-8a2c-14d54ba1a0be",
+            "title": "description zone",
+            "icon": "sicon-store",
+            "path": "01july.text",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
