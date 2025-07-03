@@ -1047,6 +1047,13 @@
             "icon": "sicon-store",
             "path": "01july.text",
             "fields": []
+        },
+        {
+            "key": "264a994a-4377-4524-9678-ade321c3e646",
+            "title": "brand image",
+            "icon": "sicon-store",
+            "path": "brand.image",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
