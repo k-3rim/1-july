@@ -1130,16 +1130,31 @@
             "path": "promo.image",
             "fields": [
                 {
-                    "id": "promi.image",
-                    "type": "string",
-                    "format": "image",
-                    "label": "Image",
-                    "description": null,
+                    "id": "promo_image",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "promo image",
+                    "description": "promo image",
                     "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": false
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "promo_image.image",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
                 }
             ]
         },
