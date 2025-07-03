@@ -1103,7 +1103,26 @@
             "title": "paragraph zone",
             "icon": "sicon-store",
             "path": "paragraph.text",
-            "fields": []
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "static",
+                    "format": "title",
+                    "label": "Title",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-text"
+                },
+                {
+                    "id": "description.text",
+                    "type": "static",
+                    "format": "description",
+                    "label": "Description",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-size"
+                }
+            ]
         },
         {
             "key": "efa460b4-5243-4a87-9103-9e8a4bd44ab4",
