@@ -1100,6 +1100,21 @@
                     "required": false,
                     "minLength": "50",
                     "maxLength": "150"
+                },
+                {
+                    "id": "text_area",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "Text Area",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": true,
+                    "required": true,
+                    "minLength": 20,
+                    "maxLength": "700"
                 }
             ]
         },
