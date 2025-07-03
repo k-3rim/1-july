@@ -1054,6 +1054,13 @@
             "icon": "sicon-store",
             "path": "brand.image",
             "fields": []
+        },
+        {
+            "key": "1e4cffdd-48e5-40f5-ba9f-c9f9e58669eb",
+            "title": "promo image",
+            "icon": "sicon-store",
+            "path": "promo.image",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
