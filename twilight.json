@@ -1195,22 +1195,43 @@
             "path": "paragraph.text",
             "fields": [
                 {
-                    "id": "title",
-                    "type": "static",
-                    "format": "title",
-                    "label": "Title",
-                    "value": null,
-                    "variant": "h1",
-                    "icon": "sicon-format-text"
-                },
-                {
-                    "id": "description.text",
-                    "type": "static",
-                    "format": "description",
-                    "label": "Description",
-                    "value": null,
-                    "variant": "h1",
-                    "icon": "sicon-format-size"
+                    "id": "collection",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "collection.title",
+                            "type": "static",
+                            "format": "title",
+                            "label": "Title",
+                            "value": "paragraph zone",
+                            "variant": "h1",
+                            "icon": "sicon-format-text"
+                        },
+                        {
+                            "id": "collection.text_area",
+                            "type": "string",
+                            "format": "textarea",
+                            "label": "Text Area",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Your text here",
+                            "icon": "sicon-typography",
+                            "value": null,
+                            "multilanguage": true,
+                            "required": false,
+                            "minLength": 20,
+                            "maxLength": "1000"
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
                 }
             ]
         },
