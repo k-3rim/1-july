@@ -6,10 +6,8 @@
 | image.alt   | ?string |                                                                  |
 | position    | Int     | Sorting number start from zero                                   |
 #}
-<section class="s-block s-block--fixed-banner wide-placeholder">
-    <div class="container">
-        <a href="{{ url }}" class="banner banner--fixed overflow-hidden" aria-label="Banner {{ image.alt }}">
-            <img width="1200" height="300" src="{{ image.url }}" alt="{{ image.alt|trim ? image.alt : 'fixed banner' }}"/>
-        </a>
-    </div>
+<section class="s-block s-block--fixed-banner wide-placeholder p-0 m-0 w-full">
+    <a href="{{ url }}" class="banner banner--fixed overflow-hidden w-full block" aria-label="Banner {{ image.alt }}">
+        <img width="1920" height="500" class="w-full h-[500px] object-contain" src="{{ image.url }}" alt="{{ image.alt|trim ? image.alt : 'fixed banner' }}" style="background:#f5f5f5;"/>
+    </a>
 </section>
