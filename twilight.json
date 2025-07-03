@@ -1282,7 +1282,52 @@
             "title": "july product",
             "icon": "sicon-cart2",
             "path": "productfix.jly",
-            "fields": []
+            "fields": [
+                {
+                    "id": "collection",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "collection.string",
+                            "type": "string",
+                            "format": "text",
+                            "label": "String",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "collection.checkbox_list",
+                            "type": "items",
+                            "format": "checkbox-list",
+                            "label": "Checkbox List",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-list-check",
+                            "selected": [],
+                            "options": [],
+                            "source": "Manual",
+                            "multichoice": true,
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
