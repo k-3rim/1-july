@@ -1063,13 +1063,28 @@
             "path": "01july.text",
             "fields": [
                 {
-                    "id": "description.text",
+                    "id": "title",
                     "type": "static",
-                    "format": "description",
-                    "label": "Description",
+                    "format": "title",
+                    "label": "Title",
+                    "value": "descrip zone",
+                    "variant": "h2",
+                    "icon": "sicon-format-text"
+                },
+                {
+                    "id": "string",
+                    "type": "string",
+                    "format": "text",
+                    "label": "String",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
                     "value": null,
-                    "variant": "h1",
-                    "icon": "sicon-format-size"
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": "50",
+                    "maxLength": "150"
                 }
             ]
         },
