@@ -561,13 +561,12 @@
             "title": "منتجات متحركة مع خلفية",
             "icon": "sicon-list-play",
             "path": "home.slider-products-with-header",
-            "image": "https://cdn.salla.sa/mQgZlG/3hhreht06MIPFWepyuz42rg3bHqGZIYmDVs1PjYc.png",
             "fields": [
                 {
                     "type": "static",
                     "format": "description",
                     "id": "with-bg",
-                    "value": "<div style='margin: -24px -20px 20px'><img class='w-full' src='https://cdn.salla.network/images/themes/raed/preview-images/slider-products-with-bg.png?v=1.1'></div>"
+                    "value": "<div ><img class='w-full' src='https://cdn.salla.network/images/themes/raed/preview-images/slider-products-with-bg.png?v=1.1'></div>"
                 },
                 {
                     "type": "string",
@@ -633,8 +632,8 @@
                 {
                     "type": "items",
                     "icon": "sicon-link",
-                    "label": "رابط عرض الكل",
-                    "id": "display_all_url",
+                    "label": "رابط عرض الكل copy",
+                    "id": "رابط_عرض_الكل_copy",
                     "value": [],
                     "description": "عند إختيار رابط فارغ سيتم إخفاء زر 'عرض الكل'",
                     "required": false,
@@ -692,7 +691,10 @@
                             "key": "custom",
                             "value": "custom"
                         }
-                    ]
+                    ],
+                    "multichoice": false,
+                    "selected": [],
+                    "labelHTML": null
                 }
             ]
         },
