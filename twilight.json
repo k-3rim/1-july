@@ -1100,8 +1100,8 @@
                     "value": null,
                     "multilanguage": false,
                     "required": false,
-                    "minLength": 6,
-                    "maxLength": 30
+                    "minLength": "50",
+                    "maxLength": "150"
                 },
                 {
                     "id": "text_area",
