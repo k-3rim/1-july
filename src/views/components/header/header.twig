@@ -15,10 +15,7 @@
           <salla-cart-summary>
             <i slot="icon" class="header-btn__icon icon sicon-shopping-bag text-2xl"></i>
           </salla-cart-summary>
-          <button type="button" onclick="salla.event.dispatch('localization::open')" class="bg-transparent border-none text-base cursor-pointer">
-            Eng <span class="mx-1">|</span> Sa
-          </button>
-          <salla-localization-modal></salla-localization-modal>
+          <salla-localization-switcher></salla-localization-switcher>
         </div>
         <!-- Center: Categories (desktop only) -->
         <nav class="hidden md:flex flex-1 justify-center order-2">
@@ -55,7 +52,7 @@
   <!-- Mobile Sidebar Menu -->
   <div id="mobile-menu" class="fixed top-0 right-0 h-full w-64 bg-white shadow-lg z-50 transform translate-x-full transition-transform duration-300 md:hidden" style="will-change: transform;">
     <div class="flex justify-between items-center p-4 border-b">
-      <span class="font-semibold text-lg">Menu</span>
+      <span class="font-semibold text-lg">{{ 'Menu'|trans }}</span>
       <button onclick="document.getElementById('mobile-menu').classList.add('translate-x-full');document.body.classList.remove('overflow-hidden');" aria-label="Close menu">
         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
       </button>
@@ -66,7 +63,7 @@
           <li><a href="{{ category.url }}" class="block py-2 px-2 text-lg hover:bg-gray-100 rounded" onclick="document.getElementById('mobile-menu').classList.add('translate-x-full');document.body.classList.remove('overflow-hidden');">{{ category.name }}</a></li>
         {% endfor %}
       {% else %}
-        <li><span class="text-gray-400">No categories</span></li>
+        <li><span class="text-gray-400">{{ 'No categories'|trans }}</span></li>
       {% endif %}
     </ul>
   </div>
