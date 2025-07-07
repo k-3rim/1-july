@@ -1074,53 +1074,6 @@
             ]
         },
         {
-            "key": "6ed93c2c-6097-431f-8a2c-14d54ba1a0be",
-            "title": "description zone",
-            "icon": "sicon-store",
-            "path": "01july.text",
-            "fields": [
-                {
-                    "id": "title",
-                    "type": "static",
-                    "format": "title",
-                    "label": "Title",
-                    "value": "descrip zone",
-                    "variant": "h2",
-                    "icon": "sicon-format-text"
-                },
-                {
-                    "id": "string",
-                    "type": "string",
-                    "format": "text",
-                    "label": "String",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": "50",
-                    "maxLength": "150"
-                },
-                {
-                    "id": "text_area",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "Text Area",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Your text here",
-                    "icon": "sicon-typography",
-                    "value": null,
-                    "multilanguage": true,
-                    "required": true,
-                    "minLength": 20,
-                    "maxLength": "700"
-                }
-            ]
-        },
-        {
             "key": "264a994a-4377-4524-9678-ade321c3e646",
             "title": "brand image",
             "icon": "sicon-store",
