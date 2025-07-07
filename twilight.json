@@ -1191,53 +1191,6 @@
             ]
         },
         {
-            "key": "f66ffa0f-f2a3-4d33-a6ca-b0a90795192e",
-            "title": "paragraph zone",
-            "icon": "sicon-store",
-            "path": "paragraph.text",
-            "fields": [
-                {
-                    "id": "collection",
-                    "type": "collection",
-                    "format": "collection",
-                    "label": "Collection",
-                    "description": null,
-                    "labelHTML": null,
-                    "item_label": null,
-                    "icon": "sicon-list-add",
-                    "fields": [
-                        {
-                            "id": "collection.title",
-                            "type": "static",
-                            "format": "title",
-                            "label": "Title",
-                            "value": "paragraph zone",
-                            "variant": "h1",
-                            "icon": "sicon-format-text"
-                        },
-                        {
-                            "id": "collection.text_area",
-                            "type": "string",
-                            "format": "textarea",
-                            "label": "Text Area",
-                            "description": null,
-                            "labelHTML": null,
-                            "placeholder": "Your text here",
-                            "icon": "sicon-typography",
-                            "value": null,
-                            "multilanguage": true,
-                            "required": false,
-                            "minLength": 20,
-                            "maxLength": "1000"
-                        }
-                    ],
-                    "value": [],
-                    "minLength": 1,
-                    "maxLength": 5
-                }
-            ]
-        },
-        {
             "key": "efa460b4-5243-4a87-9103-9e8a4bd44ab4",
             "title": "shop buttom",
             "icon": "sicon-store",
