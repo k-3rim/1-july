@@ -1191,13 +1191,6 @@
             ]
         },
         {
-            "key": "efa460b4-5243-4a87-9103-9e8a4bd44ab4",
-            "title": "shop buttom",
-            "icon": "sicon-store",
-            "path": "shop.btn",
-            "fields": []
-        },
-        {
             "key": "a3d9f489-e843-4d02-8d85-ad5433e3a38d",
             "title": "small banner",
             "icon": "sicon-store",
